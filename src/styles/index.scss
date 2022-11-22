@@ -6,17 +6,43 @@
 *:before,
 *:after {
   box-sizing: border-box;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: $blueColor;
+  padding: 5px;
+  line-height: 1;
+  font-size: 20px;
+  color: $grayColor;
+  font-weight: 400;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: $containerWidth;
+  min-height: 99vh;
   margin: 0 auto;
-  padding-top: 20px;
+  overflow: visible;
   border-radius: $border-radius;
   background-color: $whiteColor;
+  display: flex;
+  flex-direction: column;
 }
