@@ -114,6 +114,15 @@
     min-width: 60px;
     height: 34px;
   }
+  &__change_theme{
+    display: flex;
+    align-items: center;
+    svg {
+      height: 34px;
+      width: 32px;
+      fill: $blueColor;
+    }
+  }
 }
 
 .container {

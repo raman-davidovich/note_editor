@@ -31,6 +31,9 @@ function Header() {
             </form>
           </div>
           <hr className={`${s.header__separator} ${s.separator2}`} />
+          <div className={s.header__change_theme}>
+            <GlobalSvgSelector id="change-theme" />
+          </div>
         </div>
       </div>
     </div>
